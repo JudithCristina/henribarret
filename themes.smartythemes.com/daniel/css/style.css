@@ -470,7 +470,7 @@ body::before {
 #site-footer {
 	display: block;
 	position: absolute;
-	bottom: 52px;
+	bottom: 10%;
 	left: 0;
 	right: 0;
 	text-align: center;
