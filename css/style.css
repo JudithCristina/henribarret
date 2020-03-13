@@ -403,6 +403,7 @@ body::before {
 	margin-bottom: 20px;
 	display: flex;
 }
+
 #subscribe-form input[type='email'] {
 	border: 2px solid #fff;
 	-moz-box-sizing: border-box;
@@ -1093,10 +1094,10 @@ body::before {
 .timer {
 	font-size: 4rem;
 	color: white;
-	display: flex;
+
 	height: 100%;
-	justify-content: center;
-	align-items: center;
+	
+
 	margin-top:5%;
 	margin-bottom: 5%;
 	font-family: 'Open Sans', sans-serif;
