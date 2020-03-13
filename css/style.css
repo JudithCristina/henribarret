@@ -299,7 +299,7 @@ body::before {
 @media only screen and (min-width: 1170px) {
 	#countdown_block {
 		position: absolute;
-		top: 50%;
+    	top: 30%;
 		left: 0;
 		right: 0;
 	}
@@ -315,7 +315,7 @@ body::before {
 	/* display: none; */
 }
 #site-tagline {
-	font-size: 48px;
+	font-size: 3rem;
 	line-height: 58px;
 	color: #fff;
 	margin: 0;
@@ -342,6 +342,10 @@ body::before {
 	letter-spacing: 2px;
 }
 @media only screen and (max-width: 768px) {
+	.timer{
+		font-size: 2rem;
+	}
+
 	#countdown .countdown-section {
 		margin: 0 20px;
 	}
@@ -352,7 +356,7 @@ body::before {
 }
 @media only screen and (max-width: 480px) {
 	#site-tagline {
-		font-size: 30px;
+		font-size: 1.3rem;
 		line-height: 36px;
 	}
 	#countdown .countdown-section {
@@ -526,10 +530,10 @@ body::before {
 }
 
 @media only screen and (max-width: 1170px) {
-	#site-footer {
+	/* #site-footer {
 		padding-bottom: 20px;
 		position: static;
-	}
+	} */
 }
 
 /*
@@ -556,7 +560,7 @@ body::before {
 	.section-content {
 		font-weight: 400;
 		position: absolute;
-		top: 50%;
+		top: 24%;
 		left: 0;
 		right: 0;
 	}
@@ -594,7 +598,7 @@ body::before {
 }
 #site-social {
 	position: absolute;
-	top: 20px;
+	top: 10%;
 	right: 0;
 	margin: 0 45px 0 0;
 	padding: 27px 0 0;
@@ -1068,7 +1072,7 @@ body::before {
 /*time*/
 
 .timer {
-	font-size: 5em;
+	font-size: 4rem;
 	color: white;
 	display: flex;
 	height: 100%;
@@ -1080,14 +1084,7 @@ body::before {
 	
   }
 
-  @media (max-width: 768px) {
-
-	.timer{
-		font-size: 2em;
-	}
-
-
-  }
+ 
 
 
 
