@@ -36,14 +36,14 @@ body {
 	margin: 0;
 	font-weight: 600;
 	font-family: 'Khand', sans-serif;
-	background: url(../images/bg.jpg) center 0 no-repeat #000 fixed;
+	background: url(../images/hb/FONDO_PAPEL.png) center 0 no-repeat #000 fixed;
 	background-size: cover;
 	color: #636363;
 	font-size: 18px;
 	line-height: 1.2em;
 }
 body.gallery-bg {
-	background: #000;
+	/* background: #000; */
 }
 body.clouds-bg {
 	background: url(../images/clouds/clouds-bg.jpg) center 0 no-repeat fixed;
@@ -60,6 +60,10 @@ body.snowflakes {
 body.demo {
 	background: url(../images/demo-bg.jpg) center 0 no-repeat fixed;
 	background-size: cover;
+}
+.img-logo{
+	width: 15rem;
+    height: 100%;
 }
 .cloud {
 	position: fixed;
@@ -191,7 +195,7 @@ body::before {
 	background-repeat: no-repeat;
 }
 .section-half:nth-of-type(1) {
-	background-color: #fff;
+	background-image: url(../images/hb/FONDO_PAPEL.png);
 }
 
 @media only screen and (min-width: 1170px) {
@@ -243,7 +247,7 @@ body::before {
 	.screen-section:nth-of-type(even) .section-half:nth-of-type(2) {
 		left: 50%;
 		right: 0;
-		background: #fff;
+		background-image: url(../images/hb/FONDO_PAPEL.png);
 		-webkit-transform: translateX(100%);
 		-moz-transform: translateX(100%);
 		-ms-transform: translateX(100%);
@@ -255,7 +259,7 @@ body::before {
 /* Section Backgrounds */
 
 .screen-section.section-2 .right-half-block.section-half {
-	background: url(../images/section2-bg.jpg) 50% 50% no-repeat;
+	background: url(../images/hb/IMAGEN_1.png) 50% 50% no-repeat;
 	background-size: cover;
 }
 .screen-section.section-3 .right-half-block.section-half {
@@ -312,6 +316,7 @@ body::before {
 
 #countdown_block {
 	text-align: center;
+	padding-bottom: 50px;
 	/* display: none; */
 }
 #site-tagline {
@@ -342,10 +347,7 @@ body::before {
 	letter-spacing: 2px;
 }
 @media only screen and (max-width: 768px) {
-	.timer{
-		font-size: 2rem;
-	}
-
+	
 	#countdown .countdown-section {
 		margin: 0 20px;
 	}
@@ -355,6 +357,18 @@ body::before {
 	}
 }
 @media only screen and (max-width: 480px) {
+	section.screen-section.section-1{
+		height: 100vh;
+	}
+	footer#site-footer{
+		position: absolute;
+		bottom: 0%;
+	}
+	.section-1.section-inner{
+		position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	}
 	#site-tagline {
 		font-size: 1.3rem;
 		line-height: 36px;
@@ -370,6 +384,9 @@ body::before {
 		font-size: 12px;
 		line-height: 15px;
 	}
+	.timer{
+		font-size: 2rem!important;
+	}
 }
 
 
@@ -384,6 +401,7 @@ body::before {
 }
 #subscribe-form .mc-field-group {
 	margin-bottom: 20px;
+	display: flex;
 }
 #subscribe-form input[type='email'] {
 	border: 2px solid #fff;
@@ -560,9 +578,10 @@ body::before {
 	.section-content {
 		font-weight: 400;
 		position: absolute;
-		top: 24%;
+		top: 50%;
 		left: 0;
 		right: 0;
+		transform: translateY(-50%)
 	}
 }
 @media only screen and (max-width: 1170px) {
