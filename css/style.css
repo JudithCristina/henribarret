@@ -312,7 +312,7 @@ body::before {
 
 #countdown_block {
 	text-align: center;
-	display: none;
+	/* display: none; */
 }
 #site-tagline {
 	font-size: 48px;
