@@ -35,13 +35,23 @@ body {
 	position: relative;
 	margin: 0;
 	font-weight: 600;
-	font-family: 'Khand', sans-serif;
+	font-family: 'Gotham-Bold';
 	background: url(../images/hb/FONDO_PAPEL.png) center 0 no-repeat #000 fixed;
 	background-size: cover;
 	color: #636363;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 1.2em;
 }
+
+@font-face {
+	font-family: 'Gotham-Bold';
+	src: url('fonts/Gotham-Bold.otf');
+	src: url('fonts/Gotham-Bold.otf') format('otf'),
+	url('fonts/Gotham-Bold.otf') format('otf'),
+	
+	}
+
+
 body.gallery-bg {
 	/* background: #000; */
 }
@@ -130,7 +140,7 @@ p {
 	margin: 0 0 24px;
 }
 h3 {
-	font-size: 24px;
+	font-size: 1rem;
 	line-height: 29px;
 	color: #fff;
 	margin: 0 0 10px;
@@ -138,7 +148,7 @@ h3 {
 	font-weight: 900;
 }
 h2 {
-	font-size: 48px;
+	font-size: 3rem;
 	line-height: 58px;
 	color: #c6a530;
 	text-transform: uppercase;
@@ -348,9 +358,9 @@ body::before {
 	/* display: none; */
 }
 #site-tagline {
-	font-size: 3rem;
+	font-size: 2.3rem;
 	line-height: 58px;
-	color: #fff;
+	color: black;
 	margin: 0;
 	font-weight: 400;
 }
@@ -433,7 +443,7 @@ body::before {
 }
 
 #subscribe-form input[type='email'] {
-	border: 2px solid #fff;
+	border: 2px solid #C6A530;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border-right-width: 1px;
@@ -443,9 +453,9 @@ body::before {
 	padding: 2px 19px 0;
 	border-radius: 5px 0 0 5px;
 	width: 279px;
-	font-family: 'Khand', sans-serif;
+	font-family: 'Gotham-Bold';
 	vertical-align: top;
-	color: #fff;
+	color: black;
 	font-size: 18px;
 	-webkit-transition: all ease .4s;
 	-moz-transition: all ease .4s;
@@ -454,15 +464,15 @@ body::before {
 	transition: all ease .4s;
 }
 #subscribe-form input[type='submit'] {
-	font-family: 'Khand', sans-serif;
+	font-family: 'Gotham-Bold';
 	height: 45px;
 	color: #fff;
-	border: 2px solid #fff;
+	border: 2px solid #C6A530;
 	border-left-width: 1px;
 	border-radius: 0 5px 5px 0;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background: none;
+	background: rgba(198, 165, 48, 0.836);
 	font-size: 18px;
 	line-height: 40px;
 	text-transform: uppercase;
@@ -474,6 +484,11 @@ body::before {
 	-o-transition: all ease .4s;
 	transition: all ease .4s;
 }
+
+::placeholder {
+	color: #C6A530;
+  }
+
 #subscribe-form input[type='email'].mce_inline_error + input[type='submit'] {
 	border-color: #e34a4a !important;
 }
@@ -708,7 +723,7 @@ body::before {
 #contacts_form input[type='text'],
 #contacts_form input[type='email'],
 #contacts_form textarea {
-	font-family: 'Khand', sans-serif;
+	font-family: 'Gotham-Bold';
 	text-align: center;
 	border: none;
 	padding: 0;
@@ -761,14 +776,14 @@ body::before {
 #contacts_form .form_submit {
 	font-weight: 500;
 	text-transform: uppercase;
-	font-family: 'Khand', sans-serif;
-	color: #555;
-	border: 2px solid #cfcece;
+	font-family: 'Gotham-Bold';
+	color: #C6A530;
+	border: 2px solid #C6A530;
 	border-radius: 3px;
 	height: 35px;
 	line-height: 33px;
 	padding: 0 23px;
-	background: #fff;
+	background: transparent;
 	cursor: pointer;
 	-webkit-transition: all ease .4s;
 	-moz-transition: all ease .4s;
@@ -842,7 +857,7 @@ body::before {
 	}
 }
 .services .service-item .service-title {
-	font-size: 22px;
+	font-size: 1rem;
 	line-height: 27px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -1050,13 +1065,13 @@ body::before {
 	margin: 0;
 	color: #2b2b2b;
 	text-transform: uppercase;
-	font-size: 60px;
+	font-size: 3rem;
 	line-height: 72px;
 }
 #demo-subtitle {
 	color: #000;
 	padding-top: 7px;
-	font-size: 16px;
+	font-size: .9rem;
 	line-height: 20px;
 	font-weight: 400;
 	margin-bottom: 26px;
@@ -1093,7 +1108,7 @@ body::before {
 	vertical-align: top;
 }
 #demo-thumbs li.demo-thumb h4 {
-	font-size: 22px;
+	font-size: 1rem;
 	line-height: 26px;
 	color: #2b2b2b;
 	text-transform: uppercase;
@@ -1125,7 +1140,7 @@ body::before {
 	height: 100%;
 	margin-top:5%;
 	margin-bottom: 5%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Gotham-Bold';
 	
   }
 
