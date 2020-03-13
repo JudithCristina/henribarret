@@ -51,6 +51,15 @@ body {
 	
 	}
 
+@font-face {
+	font-family: 'Edo-sz';
+	src: url('fonts/edosz.ttf');
+	src: url('fonts/edosz.ttf') format('ttf'),
+	url('fonts/edosz.ttf') format('otf'),
+	
+	}
+
+
 
 body.gallery-bg {
 	/* background: #000; */
@@ -1150,4 +1159,6 @@ body::before {
  }
 
 
-
+.section-title{
+	font-family: 'Edo-sz';
+}
