@@ -51,6 +51,15 @@ body {
 	
 	}
 
+@font-face {
+	font-family: 'Edo-sz';
+	src: url('fonts/edosz.ttf');
+	src: url('fonts/edosz.ttf') format('ttf'),
+	url('fonts/edosz.ttf') format('otf'),
+	
+	}
+
+
 
 body.gallery-bg {
 	/* background: #000; */
@@ -427,6 +436,15 @@ body::before {
 	}
 	.timer{
 		font-size: 2rem!important;
+	}
+	.sello-img{
+		display: none
+	}
+	.sello2{
+		display: none
+	}
+	.sello3{
+		display: none
 	}
 }
 
@@ -831,13 +849,14 @@ body::before {
 	padding: 0 10px;
 }
 .service-link {
-	border: 2px solid #cfcece;
+	border: 2px solid #c6a530;
 	border-radius: 3px;
 	display: inline-block;
 	font-size: 14px;
 	line-height: 33px;
 	height: 31px;
-	color: #555555;
+	background-color: transparent;
+	color: #c6a530;
 	padding: 0 24px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1148,7 +1167,11 @@ body::before {
 	line-height: 0px;
   }
 
- 
+ ::placeholder{
+	 color:#C6A530;
+ }
 
 
-
+.section-title{
+	font-family: 'Edo-sz';
+}
