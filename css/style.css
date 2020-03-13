@@ -62,8 +62,31 @@ body.demo {
 	background-size: cover;
 }
 .img-logo{
-	width: 15rem;
+	width: 20rem;
     height: 100%;
+}
+
+.sello-img{
+	position: absolute;
+	width: 25rem;
+	left: -4%;
+	top: 40%;
+}
+.sello2{
+	width: 20rem;
+    position: absolute;
+    top: 180%;
+    z-index: 999;
+    left: 42%;
+}
+.sello3{
+	width: 15rem;
+	position: absolute;
+	z-index: 999;
+}
+.service-item img{
+	width: 3rem;
+	height: 100%;
 }
 .cloud {
 	position: fixed;
@@ -117,7 +140,7 @@ h3 {
 h2 {
 	font-size: 48px;
 	line-height: 58px;
-	color: #454545;
+	color: #c6a530;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -196,6 +219,7 @@ body::before {
 }
 .section-half:nth-of-type(1) {
 	background-image: url(../images/hb/FONDO_PAPEL.png);
+	/* background: #fff */
 }
 
 @media only screen and (min-width: 1170px) {
@@ -248,6 +272,7 @@ body::before {
 		left: 50%;
 		right: 0;
 		background-image: url(../images/hb/FONDO_PAPEL.png);
+		/* background: #fff; */
 		-webkit-transform: translateX(100%);
 		-moz-transform: translateX(100%);
 		-ms-transform: translateX(100%);
@@ -260,15 +285,18 @@ body::before {
 
 .screen-section.section-2 .right-half-block.section-half {
 	background: url(../images/hb/IMAGEN_1.png) 50% 50% no-repeat;
-	background-size: cover;
+	background-size: contain;
+	/* background-color: #fff */
 }
 .screen-section.section-3 .right-half-block.section-half {
-	background: url(../images/section3-bg.jpg) 50% 50% no-repeat;
+	background: url(../images/hb/IMAGEN_2.png) 50% 50% no-repeat;
 	background-size: cover;
+	/* background-color: #fff */
 }
 .screen-section.section-4 .right-half-block.section-half {
-	background: url(../images/section4-bg.jpg) 50% 50% no-repeat;
-	background-size: cover;
+	background: url(../images/hb/FONDO_3.png) 50% 50% no-repeat;
+	background-size: contain;
+	/* background-color: #fff */
 }
 
 /*
@@ -650,7 +678,7 @@ body::before {
 	width: auto;
 }
 #site-social li a:hover {
-	color: #fff;
+	color: #c6a530;
 }
 
 #contacts_form {
@@ -685,7 +713,7 @@ body::before {
 	border: none;
 	padding: 0;
 	width: 100%;
-	border-bottom: 1px solid #353535;
+	border-bottom: 1px solid #c6a530;
 	height: 33px;
 	line-height: 33px;
 	position: relative;
