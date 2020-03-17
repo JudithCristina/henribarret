@@ -147,6 +147,8 @@ a {
 }
 p {
 	margin: 0 0 24px;
+    font-size: .9rem;
+    letter-spacing: 1px;
 }
 h3 {
 	font-size: 1rem;
@@ -162,6 +164,7 @@ h2 {
 	color: #c6a530;
 	text-transform: uppercase;
 	font-weight: 600;
+	z-index: 99999;
 }
 
 @media only screen and (max-width: 480px) {
@@ -359,6 +362,22 @@ body::before {
 	#countdown_block {
 		margin-top: 0 !important;
 	}
+	.sello-img{
+		width: 14rem;
+		top: -2%;
+	}
+	.sello2{
+		width: 15rem;
+    top: 144%;
+    z-index: 100;
+    left: 75%;
+	}
+	.sello3{
+		display: 5rem
+	}
+	#site-footer{
+		top: 95%;
+	}
 }
 
 #countdown_block {
@@ -367,7 +386,7 @@ body::before {
 	/* display: none; */
 }
 #site-tagline {
-	font-size: 2.3rem;
+	font-size: 1.3rem;
 	line-height: 58px;
 	color: black;
 	margin: 0;
@@ -402,6 +421,15 @@ body::before {
 		font-size: 72px;
 		line-height: 72px;
 	}
+	.sello-img{
+		display: none
+	}
+	.sello2{
+		display: none
+	}
+	.sello3{
+		display: none
+	}
 }
 @media only screen and (max-width: 480px) {
 	section.screen-section.section-1{
@@ -433,6 +461,18 @@ body::before {
 	}
 	.timer{
 		font-size: 2rem!important;
+	}
+	.sello-img{
+		display: none
+	}
+	.sello2{
+		display: none
+	}
+	.sello3{
+		display: none
+	}
+	.img-logo {
+		width: 10rem;
 	}
 }
 
@@ -642,9 +682,11 @@ body::before {
 		top: 0;
 		margin-top: 0 !important;
 	}
+
 }
 .section-content .section-title {
 	margin: 0 0 42px 0;
+	margin-top: 3rem;
 }
 @media only screen and (max-width: 480px) {
 	.section-content {
@@ -871,7 +913,7 @@ body::before {
 	line-height: 27px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #464646;
+	color: #c6a530;
 	margin: 0 0 6px;
 }
 .services .service-item i {
@@ -885,6 +927,8 @@ body::before {
 }
 .services .service-item .service-content {
 	margin-bottom: 28px;
+	font-size: .8rem;
+	letter-spacing: 1px
 }
 .services .service-item i.service-icon-1 {
 	background-image: url(../images/services-icon-1.png);
@@ -1148,10 +1192,9 @@ body::before {
 	font-size: 4rem;
 	color: white;
 	height: 100%;
-	margin-top:5%;
 	margin-bottom: 5%;
 	font-family: 'Gotham-Bold';
-	
+	line-height: 0px;
   }
 
  ::placeholder{

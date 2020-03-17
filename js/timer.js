@@ -17,11 +17,11 @@ var x = setInterval(function() {
 
   // Muestra el resultado en el elemento de clase "timer"
   timer = document.querySelector(".timer");
-  timer.innerHTML =`<div style="display:flex; justify-content: center;"> <div style="margin: 0 3% 0 3%" ><p style=""><strong style="-webkit-text-stroke: 2px #C6A530;
-  color: transparent; " > ${days}</strong></p><br><p style="font-size: 1rem; color: #C6A530">Días</p></div> <div style="margin: 0 3% 0 3%"><p style=""><strong style="-webkit-text-stroke: 2px #C6A530;
-  color: transparent; " > ${hours}</strong></p><br><p style="font-size: 1rem; color: #C6A530">Horas</p></div><div style="margin: 0 3% 0 3%" ><p style=""><strong style="-webkit-text-stroke: 2px  #C6A530;
-  color: transparent; " > ${minutes}</strong></p><br><p style="font-size: 1rem; color:  #C6A530">Minutos</p></div><div style="margin: 0 3% 0 3%" ><p style=""><strong style="-webkit-text-stroke: 2px  #C6A530;
-  color: transparent; " > ${seconds}</strong></p><br><p style="font-size: 1rem; color: #C6A530">Segundos</p></div></div>
+  timer.innerHTML =`<div style="display:flex; justify-content: center;"> <div style="margin: 0 3% 0 3%" ><h1 style=""><strong style="-webkit-text-stroke: 2px #C6A530;
+  color: transparent; " > ${days}</strong></h1><br><p style="font-size: 1rem; color: #C6A530">Días</p></div> <div style="margin: 0 3% 0 3%"><h1 style=""><strong style="-webkit-text-stroke: 2px #C6A530;
+  color: transparent; " > ${hours}</strong></h1><br><p style="font-size: 1rem; color: #C6A530">Horas</p></div><div style="margin: 0 3% 0 3%" ><h1 style=""><strong style="-webkit-text-stroke: 2px  #C6A530;
+  color: transparent; " > ${minutes}</strong></h1><br><p style="font-size: 1rem; color:  #C6A530">Minutos</p></div><div style="margin: 0 3% 0 3%" ><h1 style=""><strong style="-webkit-text-stroke: 2px  #C6A530;
+  color: transparent; " > ${seconds}</strong></h1><br><p style="font-size: 1rem; color: #C6A530">Segundos</p></div></div>
   `;
  
   
